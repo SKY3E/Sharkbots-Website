@@ -21,3 +21,23 @@
 .underline-animation:hover::after {
   width: 100%;
 }
+
+.bar {
+  width: 20px;
+  height: 2px;
+  background-color: white;
+  margin: 4px 0;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.rotate-right {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.rotate-left {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.hide {
+  opacity: 0;
+}
