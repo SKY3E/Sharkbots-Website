@@ -7,9 +7,10 @@ const images = [
 
 const Home = () => {
   return (
-    <div>
+    <article>
       <Slideshow images={images} />
-    </div>
+      <section className='h-20 bg-blue-900 bg-opacity-90'></section>
+    </article>
   );
 };
 

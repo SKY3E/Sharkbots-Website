@@ -26,6 +26,7 @@ const Navbar = () => {
         </button>
         {showMenu && (
           <div className="absolute top-16 right-4 mt-2 space-y-2 p-4 rounded shadow-lg bg-blue-900 bg-opacity-90">
+            <h3 className='text-right'>Past Seasons</h3>
             <a href="/powerplay" className="block text-sm">2022-2023 Powerplay</a>
           </div>
         )}
