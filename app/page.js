@@ -1,6 +1,5 @@
 import Slideshow from './components/slideshow';
 import Divider from './components/divider';
-import Construction from "./components/construction";
 
 const images = [
   '/TeamMeeting.jpg',
@@ -53,9 +52,13 @@ const Home = () => {
       <Divider color={"white"} />
       <section className='flex justify-around'>
         <img className='object-cover h-96 w-full mr-4 rounded-r-lg' src='/Team.jpg'></img>
-        <div className='h-96 w-full bg-gradient-to-r from-gray-800 via-blue-900 to-gray-800 ml-4 rounded-l-lg'></div>
+        <div className='h-96 w-full bg-gradient-to-r from-gray-800 via-blue-900 to-gray-800 ml-4 rounded-l-lg'>
+          <h2 className='text-white font-extrabold text-4xl p-8'>Community drives us forward ...</h2>
+          <p className='text-white text-xl px-8 pb-2'>Last weekend, we connected with our FASNY non-stem community through an Open House event.</p>
+          <p className='text-white text-xl px-8'>In early December, we participated in an <span className='font-extrabold'>Open House event</span> at our school, FASNY, engaging with prospective parents, teachers, and faculty. At our booth with our partner FLL team, <span className='font-extrabold'>we introduced our FTC team and showcased our latest robot</span>, emphasizing our engineering mindset. We had insightful discussions, sharing our team's daily endeavors and achievements with parents and are <span className='font-extrabold'>looking forward to more such events in the future!</span></p>
+        </div>
       </section>
-      <Construction />
+      <Divider color={"white"} />
     </article>
   );
 };

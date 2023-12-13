@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gradient-to-r from-gray-800 via-blue-900 to-gray-800 text-white flex justify-between items-center h-20 p-4">
+    <nav className="sticky top-0 bg-white z-10 bg-gradient-to-r from-gray-800 via-blue-900 to-gray-800 text-white flex justify-between items-center h-20 p-4">
       <a href="/" className="flex items-center">
         <span className="w-8 h-8 flex items-center justify-center">🦈</span>
         <span className="font-bold text-xl underline-animation">Sharkbots</span>
