@@ -1,8 +1,9 @@
+import Construction from "../components/construction";
+
 const About = () => {
   return (
-    <section>
-    </section>
-  )
-}
+    <Construction />
+  );
+};
 
 export default About;

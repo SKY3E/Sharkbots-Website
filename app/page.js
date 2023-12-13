@@ -1,15 +1,17 @@
 import Slideshow from './components/slideshow';
 import Divider from './components/divider';
+import Construction from "./components/construction";
 
 const images = [
   '/TeamMeeting.jpg',
   '/WorkingRobot.jpg',
+  '/JohnJay.jpg',
 ];
 
 const jsxContent = (
   <div className="absolute flex flex-col">
-    <h1 className='text-center text-white font-extrabold text-7xl py-2 px-8 rounded bg-white bg-opacity-50 mb-2'>Sharkbots</h1>
-    <h2 className='text-center text-white font-extrabold text-4xl py-2 px-8 rounded bg-white bg-opacity-50 mb-2 mx-24'>14903</h2>
+    <h1 className='text-center text-white font-extrabold text-7xl py-2 px-8 rounded bg-gradient-to-r from-gray-800 via-blue-900 to-gray-800 mb-2'>Sharkbots</h1>
+    <h2 className='text-center text-white font-extrabold text-4xl py-2 px-8 rounded bg-gradient-to-r from-gray-800 via-blue-900 to-gray-800 mb-2 mx-24'>14903</h2>
   </div>
 );
 
@@ -40,6 +42,20 @@ const Home = () => {
         <p className='text-center text-white text-xl'>Since September, we've met up every week to build our current robot and recently participated in the first qualifiers for our region and were the 1st Alliance Captain.</p>
       </section>
       <Divider color={"white"} />
+      <section className='flex justify-around'>
+        <div className='h-96 w-full bg-gradient-to-r from-gray-800 via-blue-900 to-gray-800 mr-4 rounded-r-lg'>
+          <h2 className='text-white font-extrabold text-4xl p-8'>Collaboration in the game, almost clinched the fame ...</h2>
+          <p className='text-white text-xl px-8 pb-2'>Aspiring through alliances, we reached the finals on December 2nd.</p>
+          <p className='text-white text-xl px-8'>On December 2nd, we eagerly entered the <span className='font-extrabold'>inaugural regional qualifier</span>. As the day unfolded, we forged valuable connections and alliances that propelled us to the finals, where <span className='font-extrabold'>we proudly assumed the role of the 1st alliance captain</span>. Despite our best efforts, success didn't grace us with a spot in the State Qualifiers this time. <span className='font-extrabold'>Undeterred, we stand resilient and fully prepared to surmount challenges and secure our place in the next pursuit.</span></p>
+        </div>
+        <img className='object-cover h-96 w-full ml-4 rounded-l-lg' src='/JohnJay.jpg'></img>
+      </section>
+      <Divider color={"white"} />
+      <section className='flex justify-around'>
+        <img className='object-cover h-96 w-full mr-4 rounded-r-lg' src='/Team.jpg'></img>
+        <div className='h-96 w-full bg-gradient-to-r from-gray-800 via-blue-900 to-gray-800 ml-4 rounded-l-lg'></div>
+      </section>
+      <Construction />
     </article>
   );
 };

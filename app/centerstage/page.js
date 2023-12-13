@@ -1,8 +1,9 @@
+import Construction from "../components/construction";
+
 const Centerstage = () => {
   return (
-    <section>
-    </section>
-  )
-}
+    <Construction />
+  );
+};
 
 export default Centerstage;

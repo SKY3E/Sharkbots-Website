@@ -1,8 +1,9 @@
+import Construction from "../components/construction";
+
 const Sponsors = () => {
   return (
-    <section>
-    </section>
-  )
-}
+    <Construction />
+  );
+};
 
 export default Sponsors;

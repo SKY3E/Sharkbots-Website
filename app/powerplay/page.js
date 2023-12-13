@@ -1,9 +1,9 @@
 import Construction from "../components/construction";
 
-const Contact = () => {
+const Powerplay = () => {
   return (
     <Construction />
   );
 };
 
-export default Contact;
+export default Powerplay;
