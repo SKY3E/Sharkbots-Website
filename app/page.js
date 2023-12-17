@@ -8,16 +8,15 @@ const images = [
 ];
 
 const jsxContent = (
-  <div className="absolute flex flex-col">
-    <h1 className='text-center text-white font-extrabold text-7xl py-2 px-8 rounded bg-gradient-to-r from-gray-800 via-blue-900 to-gray-800 mb-2'>Sharkbots</h1>
-    <h2 className='text-center text-white font-extrabold text-4xl py-2 px-8 rounded bg-gradient-to-r from-gray-800 via-blue-900 to-gray-800 mb-2 mx-24'>14903</h2>
+  <div className="absolute flex flex-col top-32 left-20">
+    <h1 className='text-center text-white font-extrabold text-7xl py-2 px-8 rounded border-4 border-white bg-gradient-to-r from-gray-800 via-blue-900 to-gray-800 mb-2'>Sharkbots</h1>
+    <h2 className='text-center text-white font-extrabold text-4xl py-2 px-8 rounded border-4 border-white bg-gradient-to-r from-gray-800 via-blue-900 to-gray-800 mb-2 mr-32'>14903</h2>
   </div>
 );
 
 const Home = () => {
   return (
     <article>
-      <Divider color={"white"} />
       <Slideshow images={images} jsxContent={jsxContent} />
       <Divider color={"white"} />
       <section className='bg-gradient-to-r from-gray-800 via-blue-900 to-gray-800 py-8 mx-8 rounded'>
