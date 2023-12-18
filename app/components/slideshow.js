@@ -14,10 +14,10 @@ const Slideshow = ({ images, jsxContent }) => {
   }, [currentIndex, images]);
 
   return (
-    <div className="slideshow">
+    <section className="slideshow">
       {jsxContent}
       <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
-    </div>
+    </section>
   );
 };
 

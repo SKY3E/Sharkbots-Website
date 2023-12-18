@@ -57,3 +57,20 @@
   height: 100%;
   object-fit: cover;
 }
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 615px;
+  margin: 0 auto;
+}
+
+.background-gradient {
+  background: linear-gradient(to right, rgb(31,41,55), rgb(30,58,138), rgb(31,41,55));
+}
+
+.background-solid {
+  background: rgb(43, 55, 89)
+}
