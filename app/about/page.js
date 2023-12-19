@@ -1,17 +1,18 @@
 import Construction from "../components/construction";
 import Video from "../components/video";
 import Divider from '../components/divider';
+import Identity from "../components/identity";
 
 const About = () => {
   return (
     <article>
       <Video video="/SharkbotsVideo.mp4" />
       <Divider color={"white"} />
-      <section className='background-gradient py-8 mx-8 rounded'>
+      <section className='background-section py-8 mx-8 rounded'>
         <h2 className='text-center text-white font-extrabold text-4xl'>About Us : Take a peak into our directory!</h2>
       </section>
       <Divider color={"white"} />
-      <section className='background-gradient py-8 px-4 mx-8 rounded'>
+      <section className='background-section py-8 px-4 mx-8 rounded'>
         <p className='text-center text-white text-xl'>
           We are Team Number 14903, The SharkBots based in Mamaroneck, NY. We are a motivated, diverse and skilled group of 10 high school students from Westchester County. Though our team number has been around for a number of seasons, in many ways we are a rookie team.
         </p>
@@ -37,15 +38,21 @@ const About = () => {
         </p>
       </section>
       <Divider color={"white"} />
-      <section className='background-gradient py-8 mx-8 rounded'>
+      <section className='background-section py-8 mx-8 rounded'>
         <h2 className='text-center text-white font-extrabold text-4xl'>Take a look at our team members!</h2>
       </section>
-      <section className="grid">
-        <div>
-          <img src="/Team/Raphael.jpg" alt="Raphael" />
-          <h4>Raphael</h4>
-          <h4>Builder</h4>
-        </div>
+      <Divider color={"white"} />
+      <section className="flex justify-between grid grid-cols-4 gap-x-4 gap-y-8 background-section py-8 px-8 mx-8 rounded">
+        <Identity name="Jack" job="Head Captain" photoURL="/Team/Jack.jpg" />
+        <Identity name="Rafael" job="Outreach Facilitator" photoURL="/Team/Rafael.png" />
+        <Identity name="Vincent" job="Building Facilitator" photoURL="/Team/Vincent.jpg" />
+        <Identity name="Justin" job="Builder" photoURL="/Team/Justin.jpg" />
+        <Identity name="Raphael" job="Builder/Website Manager" photoURL="/Team/RaphaelBessin.jpg" />
+        <Identity name="Tristan" job="Builder" photoURL="/Team/Tristan.jpg" />
+        <Identity name="Inaara" job="Programmer" photoURL="/Team/Inaara.jpg" />
+        <Identity name="Clovis" job="Builder" photoURL="/Team/Clovis.jpg" />
+        <Identity name="Denis" job="Programmer" photoURL="/Team/Denis.jpg" />
+        <Identity name="Maia" job="Builder" photoURL="/Team/Maia.jpg" />
       </section>
       <Construction />
     </article>

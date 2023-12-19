@@ -67,10 +67,10 @@
   margin: 0 auto;
 }
 
-.background-gradient {
+.background-section {
   background: linear-gradient(to right, rgb(31,41,55), rgb(30,58,138), rgb(31,41,55));
 }
 
-.background-solid {
-  background: rgb(43, 55, 89)
+.height-rsection {
+  height: 450px;
 }
