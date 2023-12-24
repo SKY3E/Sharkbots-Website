@@ -71,6 +71,18 @@
   background: linear-gradient(to right, rgb(31,41,55), rgb(30,58,138), rgb(31,41,55));
 }
 
+.background-section-light {
+  background: linear-gradient(to right, rgb(133, 140, 158), rgb(64, 75, 90), rgb(133, 140, 158));
+}
+
 .height-rsection {
   height: 450px;
+}
+
+.rotate-on-hover {
+  transition: transform 0.3s ease;
+}
+
+.rotate-on-hover:hover {
+  transform: rotate(3deg);
 }

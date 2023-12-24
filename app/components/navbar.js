@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 bg-white z-10 bg-gradient-to-r from-gray-800 via-blue-900 to-gray-800 text-white flex justify-between items-center h-20 p-4">
+    <nav className="sticky top-0 bg-white z-10 background-section text-white flex justify-between items-center h-20 p-4">
       <a href="/" className="flex items-center">
         <span className="w-8 h-8 flex items-center justify-center">🦈</span>
         <span className="font-bold text-xl underline-animation">Sharkbots</span>
@@ -25,7 +25,7 @@ const Navbar = () => {
           </svg>
         </button>
         {showMenu && (
-          <div className="absolute top-20 right-4 mt-2 space-y-2 p-4 rounded shadow-lg bg-gradient-to-r from-blue-900 to-gray-800">
+          <div className="absolute top-20 right-4 mt-2 space-y-2 p-4 rounded shadow-lg background-section">
             <h3 className='text-right'>Past Seasons</h3>
             <a href="/powerplay" className="block text-sm underline-animation">2022-2023 Powerplay</a>
           </div>
