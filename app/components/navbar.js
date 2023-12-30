@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 bg-white z-10 background-section text-white flex justify-between items-center h-20 p-4">
       <a href="/" className="flex items-center">
-        <span className="w-8 h-8 flex items-center justify-center">🦈</span>
+        <img className="h-16 mr-2" src="/Logos/SharkbotsLogo.png"/>
         <span className="font-bold text-xl underline-animation">Sharkbots</span>
       </a>
       <div className="flex items-center">
@@ -25,10 +25,10 @@ const Navbar = () => {
           </svg>
         </button>
         {showMenu && (
-          <div className="absolute top-20 right-4 mt-2 space-y-2 p-4 rounded shadow-lg background-section">
-            <h3 className='text-right'>Past Seasons</h3>
-            <a href="/powerplay" className="block text-sm underline-animation">2022-2023 Powerplay</a>
-            <a href="/credits" className='block text-sm underline-animation'>Credits</a>
+          <div className="flex flex-col absolute top-20 right-4 w-1/6 mt-2 p-4 rounded shadow-lg background-section">
+            <h3 className='text-right mb-2'>Past Seasons</h3>
+            <a href="/powerplay" className="text-sm underline-animation mb-1">2022-2023 Powerplay</a>
+            <a href="/credits" className="text-sm underline-animation">Credits</a>
           </div>
         )}
       </div>
