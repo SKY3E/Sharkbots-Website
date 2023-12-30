@@ -97,3 +97,27 @@
 .animate-fill {
   animation: fillAnimation 5s linear infinite;
 }
+
+.navigation-points {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.point {
+  width: 14px;
+  height: 14px;
+  background-color: rgb(207, 207, 207);
+  border-radius: 50%;
+  border: 3px solid rgb(30,58,138);
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.point.active {
+  background-color: rgb(30,58,138);
+}

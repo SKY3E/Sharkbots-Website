@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { useState, useEffect } from 'react';
 import '../globals.css';
 
@@ -14,14 +14,22 @@ const Slideshow = ({ images, jsxContent }) => {
     return () => clearInterval(interval);
   }, [currentIndex, images, intervalDuration]);
 
-  const progress = (intervalDuration / 4000) * 100;
+  const handlePointClick = (index) => {
+    setCurrentIndex(index);
+  };
 
   return (
     <section className="slideshow">
       {jsxContent}
       <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
-      <div className="absolute flex justify-center bottom-6 w-full">
-        <div className="h-4 w-1/6 bg-green-500 border-2 border-white rounded-lg"></div>
+      <div className="navigation-points">
+        {images.map((_, index) => (
+          <div
+            key={index}
+            className={`point ${index === currentIndex ? 'active' : ''}`}
+            onClick={() => handlePointClick(index)}
+          />
+        ))}
       </div>
     </section>
   );

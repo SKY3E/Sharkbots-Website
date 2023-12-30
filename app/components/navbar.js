@@ -28,6 +28,7 @@ const Navbar = () => {
           <div className="absolute top-20 right-4 mt-2 space-y-2 p-4 rounded shadow-lg background-section">
             <h3 className='text-right'>Past Seasons</h3>
             <a href="/powerplay" className="block text-sm underline-animation">2022-2023 Powerplay</a>
+            <a href="/credits" className='block text-sm underline-animation'>Credits</a>
           </div>
         )}
       </div>
