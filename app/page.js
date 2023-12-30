@@ -8,7 +8,7 @@ const images = [
 ];
 
 const jsxContent = (
-  <div className="absolute flex flex-col top-32 left-20">
+  <div className="absolute flex flex-col top-20 left-20">
     <h1 className='text-center text-white font-extrabold text-7xl py-2 px-8 rounded border-4 border-white background-section mb-2'>Sharkbots</h1>
     <h2 className='text-center text-white font-extrabold text-4xl py-2 px-8 rounded border-4 border-white background-section mb-2 mr-32'>14903</h2>
   </div>

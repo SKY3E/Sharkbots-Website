@@ -50,6 +50,7 @@
   width: 100%;
   height: 615px;
   margin: 0 auto;
+  position: relative;
 }
 
 .slideshow img {
@@ -85,4 +86,14 @@
 
 .rotate-on-hover:hover {
   transform: rotate(3deg);
+}
+
+@keyframes fillAnimation {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.animate-fill {
+  animation: fillAnimation 5s linear infinite;
 }
