@@ -121,3 +121,8 @@
 .point.active {
   background-color: rgb(30,58,138);
 }
+
+.text-standout {
+  font-weight: 900;
+  font-style: italic;
+}
