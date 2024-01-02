@@ -1,4 +1,3 @@
-import Construction from "../components/construction";
 import Divider from "../components/divider";
 import DividerSmall from "../components/dividersmall";
 import Event from "../components/event";
@@ -29,7 +28,7 @@ const Powerplay = () => {
       <DividerSmall color={"white"} media={"none"}/>
       <DividerSmall color={"blue"} media={"large"}/>
       <DividerSmall color={"white"} media={"none"}/>
-      <Event direction="right" image="/Outreach/CarverCenter.png" title="Carver Center" hook="We've partnered with Carver Center, refurbishing laptops, setting up 3D printers, and running programs for 100+ kids in CAD, 3D Printing, and robotics." text="We worked a multitude of times with the Carver Center to provide better resources for the students to explore STEM subjects. So far, we have refurbished over 15 of their laptops and setup their 3D printers. In addition, we've run after school programs and summer programs with more than 100 kids, teaching CAD and 3D Printing, how to build real size scooters and how to use inferno and EV3 Kits, while also promoting FIRST and its FLL and FTC programs. Next year, our aim is to continue and expand these programs, delving even deeper into the various topics we initially introduced, enriching the learning experience for all involved." />
+      <Event direction="right" image="/Outreach/CarverCenter.png" title="Carver Center" hook="We've partnered with Carver Center, refurbishing laptops, setting up 3D printers, and running programs for 100+ kids in CAD, 3D Printing, and robotics." text="We worked a multitude of times with the Carver Center to provide better resources for the students to explore STEM subjects. So far, we have refurbished over 15 of their laptops and setup their 3D printers. In addition, we've run after school programs and summer programs with more than 100 kids, teaching CAD and 3D Printing, how to build real size scooters and how to use inferno and EV3 Kits. Next year, our aim is to continue and expand these programs." />
       <DividerSmall color={"white"} media={"none"}/>
       <DividerSmall color={"blue"} media={"large"}/>
       <DividerSmall color={"white"} media={"none"}/>

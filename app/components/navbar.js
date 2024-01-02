@@ -27,12 +27,12 @@ const Navbar = () => {
         {showMenu && (
           <div className="flex flex-col absolute top-20 right-4 w-4/6 md:w-1/3 mt-2 p-4 rounded shadow-lg background-section">       
             <h3 className='text-right mb-2'>Past Seasons</h3>
-            <a href="/about" className="text-sm underline-animation md:hidden">About</a>
-            <a href="/powerplay" className="text-sm underline-animation">2022-2023 Powerplay</a>
-            <a href="/centerstage" className="text-sm underline-animation md:hidden">2023-2024 Centerstage</a>
-            <a href="/sponsors" className="text-sm underline-animation md:hidden">Sponsors</a>
-            <a href="/contact" className="text-sm underline-animation md:hidden">Contact</a>
-            <a href="/credits" className="text-sm underline-animation">Credits</a>
+            <a href="/about" className="text-end text-sm reverse-underline-animation md:hidden">About</a>
+            <a href="/powerplay" className="text-end text-sm reverse-underline-animation">2022-2023 Powerplay</a>
+            <a href="/centerstage" className="text-end text-sm reverse-underline-animation md:hidden">2023-2024 Centerstage</a>
+            <a href="/sponsors" className="text-end text-sm reverse-underline-animation md:hidden">Sponsors</a>
+            <a href="/contact" className="text-end text-sm reverse-underline-animation md:hidden">Contact</a>
+            <a href="/credits" className="text-end text-sm reverse-underline-animation">Credits</a>
           </div>
         )}
       </div>
