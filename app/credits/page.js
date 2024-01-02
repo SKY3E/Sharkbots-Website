@@ -18,7 +18,7 @@ const Credits = () => {
       <section className='background-section py-8 px-4 mx-8 rounded text-white'>
         <h2 className='text-white font-extrabold text-4xl'>Contributors</h2>
         <br></br>
-        <p className='text-xl'>Raphael Bessin for Sharkbots 14903</p>
+        <p className='text-xl'>Upcoming...</p>
       </section>
       <Divider color={"white"} />
     </article>

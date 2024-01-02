@@ -51,7 +51,7 @@ const About = () => {
         <h2 className='text-center text-white font-extrabold text-4xl'>Take a look at our team members!</h2>
       </section>
       <Divider color={"white"} />
-      <section className="flex grid grid-cols-4 gap-x-4 gap-y-8 background-section py-8 px-8 mx-8 rounded">
+      <section className="flex grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-8 background-section py-8 px-8 mx-8 rounded">
         <Identity name="Jack" job="Head Captain" photoURL="/Team/Jack.jpg" />
         <Identity name="Rafael" job="Outreach Facilitator" photoURL="/Team/Rafael.png" />
         <Identity name="Vincent" job="Building Facilitator" photoURL="/Team/Vincent.jpg" />

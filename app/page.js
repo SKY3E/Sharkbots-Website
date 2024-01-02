@@ -1,6 +1,7 @@
 import Slideshow from './components/slideshow';
 import Divider from './components/divider';
 import Event from './components/event';
+import DividerSmall from './components/dividersmall';
 
 const images = [
   '/TeamMeeting.jpg',
@@ -9,9 +10,9 @@ const images = [
 ];
 
 const jsxContent = (
-  <div className="absolute flex flex-col top-20 left-20">
-    <h1 className='text-center text-white font-extrabold text-7xl py-2 px-8 rounded border-4 border-white background-section mb-2'>Sharkbots</h1>
-    <h2 className='text-center text-white font-extrabold text-4xl py-2 px-8 rounded border-4 border-white background-section mb-2 mr-32'>14903</h2>
+  <div className="absolute flex flex-col top-20 left-10 sm:left-20">
+    <h1 className='text-center text-white font-extrabold text-4xl sm:text-7xl py-2 px-8 rounded border-4 border-white background-section mb-2'>Sharkbots</h1>
+    <h2 className='text-center text-white font-extrabold text-2xl sm:text-4xl py-2 px-8 rounded border-4 border-white background-section mb-2 mr-32'>14903</h2>
   </div>
 );
 
@@ -35,7 +36,9 @@ const Home = () => {
       </section>
       <Divider color={"white"} />
       <Event direction="right" image="/JohnJay.jpg" title="Collaboration in the game, almost clinched the fame ..." hook="Aspiring through alliances, we reached the finals on December 2nd." text="On December 2nd, we eagerly entered the inaugural regional qualifier. As the day unfolded, we forged valuable connections and alliances that propelled us to the finals, where we proudly assumed the role of the 1st alliance captain. Despite our best efforts, success didn't grace us with a spot in the State Qualifiers this time. Undeterred, we stand resilient and fully prepared to surmount challenges and secure our place in the next pursuit." />
-      <Divider color={"white"} />
+      <DividerSmall color={"white"} media={"none"}/>
+      <DividerSmall color={"blue"} media={"large"}/>
+      <DividerSmall color={"white"} media={"none"}/>
       <Event direction="left" image="/Team.jpg" title="Community drives us forward ..." hook="Last weekend, we connected with our FASNY non-stem community through an Open House event." text="In early December, we participated in an Open House event at our school, FASNY, engaging with prospective parents, teachers, and faculty. At our booth with our partner FLL team, we introduced our FTC team and showcased our latest robot, emphasizing our engineering mindset. We had insightful discussions, sharing our team's daily endeavors and achievements with parents and are looking forward to more such events in the future!" />
       <Divider color={"white"} />
     </article>

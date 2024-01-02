@@ -77,7 +77,14 @@
 }
 
 .height-rsection {
-  height: 450px;
+  height: auto;
+}
+
+@media (min-width: 648px) {
+  /* Apply height 450px only when screen size is above small (640px) */
+  .height-rsection {
+    height: 450px;
+  }
 }
 
 .rotate-on-hover {

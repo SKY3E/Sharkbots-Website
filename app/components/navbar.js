@@ -15,19 +15,23 @@ const Navbar = () => {
         <span className="font-bold text-xl underline-animation">Sharkbots</span>
       </a>
       <div className="flex items-center">
-        <a href="/about" className="mr-4 underline-animation">About</a>
-        <a href="/centerstage" className="mr-4 underline-animation">2023-2024 Centerstage</a>
-        <a href="/sponsors" className="mr-4 underline-animation">Sponsors</a>
-        <a href="/contact" className="mr-4 underline-animation">Contact</a>
+        <a href="/about" className="mr-4 underline-animation hidden md:block">About</a>
+        <a href="/centerstage" className="mr-4 underline-animation hidden md:block">2023-2024 Centerstage</a>
+        <a href="/sponsors" className="mr-4 underline-animation hidden md:block">Sponsors</a>
+        <a href="/contact" className="mr-4 underline-animation hidden md:block">Contact</a>
         <button onClick={toggleMenu} className="text-white focus:outline-none">
           <svg className="w-6 h-6 transition-transform ease-in-out duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ transform: showMenu ? 'rotate(-90deg)' : 'rotate(0)' }}>
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
           </svg>
         </button>
         {showMenu && (
-          <div className="flex flex-col absolute top-20 right-4 w-1/6 mt-2 p-4 rounded shadow-lg background-section">
+          <div className="flex flex-col absolute top-20 right-4 w-1/2 md:w-1/3 mt-2 p-4 rounded shadow-lg background-section">       
             <h3 className='text-right mb-2'>Past Seasons</h3>
+            <a href="/about" className="text-sm underline-animation md:hidden">About</a>
             <a href="/powerplay" className="text-sm underline-animation mb-1">2022-2023 Powerplay</a>
+            <a href="/centerstage" className="text-sm underline-animation md:hidden">2023-2024 Centerstage</a>
+            <a href="/sponsors" className="text-sm underline-animation md:hidden">Sponsors</a>
+            <a href="/contact" className="text-sm underline-animation md:hidden">Contact</a>
             <a href="/credits" className="text-sm underline-animation">Credits</a>
           </div>
         )}

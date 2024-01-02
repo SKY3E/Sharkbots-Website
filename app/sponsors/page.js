@@ -10,7 +10,7 @@ const Sponsors = () => {
         <h2 className='text-center text-white font-extrabold text-4xl'>Sponsors</h2>
       </section>
       <Divider color={"white"} />
-      <section className="flex justify-center items-align mx-8 px-96">
+      <section className="flex justify-center items-align mx-8 px-24 sm:px-48 lg:px-96">
         <a className="w-full rounded" target="_blank" href="https://www.gofundme.com/f/sharkbots-attend-2023-first-world-championship?member=25601301&utm_campaign=p_cp+share-sheet&utm_content=undefined&utm_medium=copy_link_all&utm_source=customer&utm_term=undefined"><button className="bg-green-700 text-white font-extrabold hover:scale-105 transition-transform w-full rounded py-4">Donate Now</button></a>
       </section>
       <Divider color={"white"} />

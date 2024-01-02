@@ -4,7 +4,7 @@ const Identity = ({ name, job, photoURL }) => {
       <img className="rounded-lg w-full" src={photoURL} alt={name} />
       <div className="flex justify-between background-section-light text-white mt-2 px-2 rounded">
         <h4 className="font-bold">{name}</h4>
-        <h4 className="font-bold">{job}</h4>
+        <h4 className="font-bold hidden lg:block">{job}</h4>
       </div>
     </div>
   );
