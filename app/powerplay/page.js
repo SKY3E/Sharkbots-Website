@@ -19,7 +19,7 @@ const Powerplay = () => {
       </section>
       <Divider color={"white"} />
       <section className="flex justify-center">
-        <img src="/Robot22-23.png" className="w-1/3" />
+        <img src="/Robot22-23.png" className="w-2/3 lg:w-1/3" />
       </section>
       <Divider color={"white"} />
       <section className='background-section py-8 px-4 mx-8 rounded'>
