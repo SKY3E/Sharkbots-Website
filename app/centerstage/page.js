@@ -28,9 +28,9 @@ const Centerstage = () => {
       <section className='background-section py-8 px-4 mx-8 rounded'>
         <h2 className='text-center text-white font-extrabold text-4xl'>Our Timeline</h2>
       </section>
-      <DividerSmall color={"white"} media={"none"}/>
+      <DividerSmall color={"white"} />
       <TimelineEvent event="John Jay Qualifier" date="12/02/23" />
-      <DividerSmall color={"white"} media={"none"}/>
+      <DividerSmall color={"white"} />
       <TimelineEvent event="Albany Qualifier" date="01/13/24" />
       <Divider color={"white"} />
     </article>
