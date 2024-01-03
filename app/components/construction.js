@@ -5,9 +5,9 @@ const Construction = () => {
   return (
     <section>
       <Divider color={"white"} />
-      <section className='bg-gradient-to-r from-gray-800 via-blue-900 to-gray-800 py-8 mx-8 rounded'>
+      <div className='bg-gradient-to-r from-gray-800 via-blue-900 to-gray-800 py-8 mx-8 rounded'>
         <h2 className='text-center text-white font-extrabold text-4xl'>🚧 Under Construction ... 🚧</h2>
-      </section>
+      </div>
       <Divider color={"white"} />
     </section>
   );
