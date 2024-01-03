@@ -1,7 +1,7 @@
 'use client';
 import Slideshow from './components/slideshow';
 import Divider from './components/divider';
-import DividerSmall from './components/dividersmall';
+import SmallDivider from './components/smalldivider';
 import Event from './components/event';
 import ScreenSizeChecker from './hooks/screensizechecker';
 
@@ -42,7 +42,7 @@ const Home = () => {
       <Event direction="right" image="/JohnJay.jpg" title="Collaboration in the game, almost clinched the fame ..." hook="Aspiring through alliances, we reached the finals on December 2nd." text="On December 2nd, we eagerly entered the inaugural regional qualifier. As the day unfolded, we forged valuable connections and alliances that propelled us to the finals, where we proudly assumed the role of the 1st alliance captain. Despite our best efforts, success didn't grace us with a spot in the State Qualifiers this time. Undeterred, we stand resilient and fully prepared to surmount challenges and secure our place in the next pursuit." />
       {isBelowLgThreshold ? (
         <div>
-          <DividerSmall color={"white"} />
+          <SmallDivider color={"white"} />
           <Event direction="right" image="/Team.jpg" title="Community drives us forward ..." hook="Last weekend, we connected with our FASNY non-stem community through an Open House event." text="In early December, we participated in an Open House event at our school, FASNY, engaging with prospective parents, teachers, and faculty. At our booth with our partner FLL team, we introduced our FTC team and showcased our latest robot, emphasizing our engineering mindset. We had insightful discussions, sharing our team's daily endeavors and achievements with parents and are looking forward to more such events in the future!" />
         </div>
       ) : (

@@ -1,6 +1,6 @@
 'use client';
 import Divider from "../components/divider";
-import DividerSmall from "../components/dividersmall";
+import SmallDivider from "../components/smalldivider";
 import Event from "../components/event";
 import TimelineEvent from "../components/timelineevent";
 import ScreenSizeChecker from '../hooks/screensizechecker';
@@ -31,7 +31,7 @@ const Powerplay = () => {
       <Event direction="right" image="/Outreach/TunisiaOutreach.png" title="International Outreach" hook="With the help of mentors Liwaaddine Fliss and Ben Ouedraogo, our team globally partnered with a robotics team in Tunisia and a STEM Center in Burkina Faso, promoting STEM equity in Africa." text="Over the year, our FTC team actively forged partnerships with various teams, offering coding classes through our meticulously crafted curriculum. Additionally, we shared our engineering mindset during FTC participation, fostering collaborative learning experiences. In the coming year, we aspire to build upon these remarkable collaborations, nurturing stronger friendships and alliances that will further enhance our collective endeavors." />
       {isBelowLgThreshold ? (
         <div>
-          <DividerSmall color={"white"} />
+          <SmallDivider color={"white"} />
           <Event direction="right" image="/Outreach/CarverCenter.png" title="Carver Center" hook="We've partnered with Carver Center, refurbishing laptops, setting up 3D printers, and running programs for 100+ kids in CAD, 3D Printing, and robotics." text="We worked a multitude of times with the Carver Center to provide better resources for the students to explore STEM subjects. So far, we have refurbished over 15 of their laptops and setup their 3D printers. In addition, we've run after school programs and summer programs with more than 100 kids, teaching CAD and 3D Printing, how to build real size scooters and how to use inferno and EV3 Kits. Next year, our aim is to continue and expand these programs." />
         </div>
       ) : (
@@ -42,7 +42,7 @@ const Powerplay = () => {
       )}
       {isBelowLgThreshold ? (
         <div>
-          <DividerSmall color={"white"} />
+          <SmallDivider color={"white"} />
           <Event direction="right" image="/Outreach/MountKisco.png" title="Mount Kisco" hook="Over the past two years, we've cultivated connections with professionals and local communities, including Mount Kisco, to impart essential STEM skills." text="Last year, 3 members of our team started instructing faculty members at the Mount Kisco Child Care Center and have continued doing so this year. We plan to keep this an ongoing project and keep reaching out to new schools, businesses and parents to promote STEM in the community and present our journey with FIRST." />
         </div>
       ) : (
@@ -55,13 +55,13 @@ const Powerplay = () => {
       <section className='background-section py-8 px-4 mx-8 rounded'>
         <h2 className='text-center text-white font-extrabold text-4xl'>Our Timeline</h2>
       </section>
-      <DividerSmall color={"white"} />
+      <SmallDivider color={"white"} />
       <TimelineEvent event="Peekskill Qualifier" date="01/14/23" />
-      <DividerSmall color={"white"} />
+      <SmallDivider color={"white"} />
       <TimelineEvent event="Broadalbin-Perth Qualifier" date="01/29/23" />
-      <DividerSmall color={"white"} />
+      <SmallDivider color={"white"} />
       <TimelineEvent event="Utica Excelsior Championship" date="03/05/23" />
-      <DividerSmall color={"white"} />
+      <SmallDivider color={"white"} />
       <TimelineEvent event="Houston World Championship" date="04/19-22/23" />
       <Divider color={"white"} />
     </article>
