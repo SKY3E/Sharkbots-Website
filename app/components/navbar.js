@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react';
 
+// Display a navigation bar with links at the top of the page
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 

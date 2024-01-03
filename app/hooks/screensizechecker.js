@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 
+// Check if the screen size is below a certain threshold
 const ScreenSizeChecker = ({ threshold }) => {
   const [isBelowThreshold, setIsBelowThreshold] = useState(false);
 

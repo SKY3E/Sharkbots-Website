@@ -1,5 +1,6 @@
 import '../globals.css';
 
+// Show a video - video determined through arguments
 const Video = ({ video }) => {
   return (
     <section>

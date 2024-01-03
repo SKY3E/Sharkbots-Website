@@ -1,5 +1,6 @@
 import Divider from '../components/divider';
 
+// Show a page or section is under construction
 const Construction = () => {
   return (
     <section>

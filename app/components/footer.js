@@ -1,3 +1,4 @@
+// Display a footer with information at the bottom of the page
 const Footer = () => {
   return (
     <footer className="background-section px-8">

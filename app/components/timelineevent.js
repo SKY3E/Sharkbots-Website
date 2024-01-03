@@ -1,3 +1,4 @@
+// Show a timeline event - event and date determined through arguments
 const TimelineEvent = ({event, date}) => {
   return (
     <div className="flex justify-between background-section px-2 mx-8 rounded">

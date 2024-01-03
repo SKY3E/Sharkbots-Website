@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import '../globals.css';
 
+// Show a slideshow of images - images and jsxContent determined through arguments
 const Slideshow = ({ images, jsxContent }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const intervalDuration = 4000;

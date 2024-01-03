@@ -1,3 +1,4 @@
+// Show an identity - name, job, and photoURL determined through arguments
 const Identity = ({ name, job, photoURL }) => {
   return (
     <div className=" rotate-on-hover">

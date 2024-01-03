@@ -1,6 +1,7 @@
 import '../globals.css';
 import DividerSmall from './dividersmall';
 
+// Show an event - image, title, hook, and text determined through arguments
 const Event = ({direction, image, title, hook, text}) => {
   if (direction == 'left')
     return (
