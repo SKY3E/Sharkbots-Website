@@ -32,12 +32,12 @@ const Centerstage = () => {
       {isBelowLgThreshold ? (
         <div>
           <SmallDivider color={"white"} />
-          <Event direction="right" image="/FLLTournament.jpg" title="Our Current Status" hook="Aspiring through alliances, we reached regionals on January 13th." text="On January 13th, we eagerly entered the inaugural regional qualifier. As the day unfolded, we forged valuable connections and alliances that propelled us to the finals, where we proudly won with the help of our allies. Nevertheless, our journey presses onward, fueled by the intensity of the competition. Presently, we're dedicated to refining our robot, striving to enhance its compactness and speed. This endeavor is crucial to maintaining the slight edge we've diligently cultivated thus far." />
+          <Event direction="right" image="/Albany.jpg" title="Our Current Status" hook="Aspiring through alliances, we reached regionals on January 13th." text="On January 13th, we eagerly entered the inaugural regional qualifier. As the day unfolded, we forged valuable connections and alliances that propelled us to the finals, where we proudly won with the help of our allies. Nevertheless, our journey presses onward, fueled by the intensity of the competition. Presently, we're dedicated to refining our robot, striving to enhance its compactness and speed. This endeavor is crucial to maintaining the slight edge we've diligently cultivated thus far." />
         </div>
       ) : (
         <div>
           <Divider color={"white"} />
-          <Event direction="left" image="/FLLTournament.jpg" title="Our Current Status" hook="Aspiring through alliances, we reached regionals on January 13th." text="On January 13th, we eagerly entered the inaugural regional qualifier. As the day unfolded, we forged valuable connections and alliances that propelled us to the finals, where we proudly won with the help of our allies. Nevertheless, our journey presses onward, fueled by the intensity of the competition. Presently, we're dedicated to refining our robot, striving to enhance its compactness and speed. This endeavor is crucial to maintaining the slight edge we've diligently cultivated thus far." />
+          <Event direction="left" image="/Albany.jpg" title="Our Current Status" hook="Aspiring through alliances, we reached regionals on January 13th." text="On January 13th, we eagerly entered the inaugural regional qualifier. As the day unfolded, we forged valuable connections and alliances that propelled us to the finals, where we proudly won with the help of our allies. Nevertheless, our journey presses onward, fueled by the intensity of the competition. Presently, we're dedicated to refining our robot, striving to enhance its compactness and speed. This endeavor is crucial to maintaining the slight edge we've diligently cultivated thus far." />
         </div>
       )}
       <Divider color={"white"} />

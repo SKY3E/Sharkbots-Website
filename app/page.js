@@ -52,8 +52,6 @@ const Home = () => {
         </div>
       )}
       <Divider color={"white"} />
-      <Event direction="right" image="/Albany.jpg" title="Determination is key ..." hook="Fighting every step of the way, we won at the Albany Qualifiers." text="On January 13th, we entered the Albany Qualifiers ready to win. Throughout the day, we met other amazing and deeply talented teams, creating strong ties. We fought throughout the day, with ups and lows, but ended up pulling it off! We won the competition as captain of the second alliance, with our amazing teammates, Tardis and Ravena! See you guys at Regionals!" />
-      <Divider color={"white"} />
     </article>
   );
 };
